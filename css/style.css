@@ -14,7 +14,7 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -105,7 +105,7 @@ figure {
   #colorlib-aside .position {
     display: block;
     margin-bottom: 2em;
-    font-size: 12px;
+    font-size: 15px;
     text-transform: uppercase; }
   #colorlib-aside #colorlib-logo {
     text-align: right;
@@ -135,7 +135,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -187,7 +187,7 @@ figure {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
@@ -253,15 +253,13 @@ figure {
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
-      left: 20px;
       float: left;
-      width: auto; }
+      width: 100%; }
       @media screen and (max-width: 768px) {
         #colorlib-hero .flexslider .flex-control-nav {
           right: 20px;
           top: 100px; } }
       #colorlib-hero .flexslider .flex-control-nav li {
-        display: block;
         margin-bottom: 10px; }
         #colorlib-hero .flexslider .flex-control-nav li a {
           background: rgba(0, 0, 0, 0.5);
@@ -273,7 +271,7 @@ figure {
           #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
             background: transparent;
-            border: 2px solid #2c98f0; }
+            outline: 2px solid; }
     #colorlib-hero .flexslider .flex-direction-nav {
       display: none; }
     #colorlib-hero .flexslider .slider-text {
@@ -380,8 +378,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -453,7 +451,7 @@ body.offcanvas {
   padding: 0; }
 
 .panel-heading a {
-  padding: 20px 25px;
+  padding: 15px 25px;
   display: block;
   width: 100%;
   font-weight: 500;
@@ -1427,3 +1425,27 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.media {
+  margin: 1.5em auto 1.5em; }
+  .media td {
+    padding-left: 12px;
+    padding-right: 12px; }
+
+table.researchlist {
+  margin-bottom: 2em;
+}
+
+.researchlist tr td {
+  padding-bottom: 0.5em;
+}
+
+.researchlist tr td:nth-child(1) {
+  display: block;
+  margin-right: 1em;
+}
+
+.invitedtalkslist tr td:nth-child(1) {
+  display: block;
+  margin-right: 1em;
+}
