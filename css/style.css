@@ -1445,6 +1445,10 @@ table.researchlist {
   margin-right: 1em;
 }
 
+table.invitedtalkslist {
+  margin-bottom: 2em;
+}
+
 .invitedtalkslist tr td:nth-child(1) {
   display: block;
   margin-right: 1em;
